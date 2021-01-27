@@ -1,0 +1,1338 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F917102
+P 2000 2000
+F 0 "SW1" H 2000 2285 50  0000 C CNN
+F 1 "SW_Push" H 2000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 2000 2200 50  0001 C CNN
+F 3 "~" H 2000 2200 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5F9177A8
+P 1800 2150
+F 0 "D1" V 1846 2082 50  0000 R CNN
+F 1 "CD4148W" V 1755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 1800 2150 50  0001 C CNN
+F 3 "~" V 1800 2150 50  0001 C CNN
+	1    1800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 2050 1800 2000
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5F91874B
+P 3000 2000
+F 0 "SW2" H 3000 2285 50  0000 C CNN
+F 1 "SW_Push" H 3000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 3000 2200 50  0001 C CNN
+F 3 "~" H 3000 2200 50  0001 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5F918751
+P 2800 2150
+F 0 "D2" V 2846 2082 50  0000 R CNN
+F 1 "CD4148W" V 2755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 2800 2150 50  0001 C CNN
+F 3 "~" V 2800 2150 50  0001 C CNN
+	1    2800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 2050 2800 2000
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5F918FFB
+P 4000 2000
+F 0 "SW3" H 4000 2285 50  0000 C CNN
+F 1 "SW_Push" H 4000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 4000 2200 50  0001 C CNN
+F 3 "~" H 4000 2200 50  0001 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5F919001
+P 3800 2150
+F 0 "D3" V 3846 2082 50  0000 R CNN
+F 1 "CD4148W" V 3755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 3800 2150 50  0001 C CNN
+F 3 "~" V 3800 2150 50  0001 C CNN
+	1    3800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2050 3800 2000
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5F9197E5
+P 5000 2000
+F 0 "SW4" H 5000 2285 50  0000 C CNN
+F 1 "SW_Push" H 5000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5F9197EB
+P 4800 2150
+F 0 "D4" V 4846 2082 50  0000 R CNN
+F 1 "CD4148W" V 4755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4800 2150 50  0001 C CNN
+F 3 "~" V 4800 2150 50  0001 C CNN
+	1    4800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 2050 4800 2000
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5F919FD8
+P 6000 2000
+F 0 "SW5" H 6000 2285 50  0000 C CNN
+F 1 "SW_Push" H 6000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 6000 2200 50  0001 C CNN
+F 3 "~" H 6000 2200 50  0001 C CNN
+	1    6000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5F919FDE
+P 5800 2150
+F 0 "D5" V 5846 2082 50  0000 R CNN
+F 1 "CD4148W" V 5755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5800 2150 50  0001 C CNN
+F 3 "~" V 5800 2150 50  0001 C CNN
+	1    5800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 2050 5800 2000
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5F920678
+P 7000 2000
+F 0 "SW6" H 7000 2285 50  0000 C CNN
+F 1 "SW_Push" H 7000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 7000 2200 50  0001 C CNN
+F 3 "~" H 7000 2200 50  0001 C CNN
+	1    7000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5F92067E
+P 6800 2150
+F 0 "D6" V 6846 2082 50  0000 R CNN
+F 1 "CD4148W" V 6755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6800 2150 50  0001 C CNN
+F 3 "~" V 6800 2150 50  0001 C CNN
+	1    6800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 2050 6800 2000
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5F920685
+P 8000 2000
+F 0 "SW7" H 8000 2285 50  0000 C CNN
+F 1 "SW_Push" H 8000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 8000 2200 50  0001 C CNN
+F 3 "~" H 8000 2200 50  0001 C CNN
+	1    8000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5F92068B
+P 7800 2150
+F 0 "D7" V 7846 2082 50  0000 R CNN
+F 1 "CD4148W" V 7755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7800 2150 50  0001 C CNN
+F 3 "~" V 7800 2150 50  0001 C CNN
+	1    7800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 2050 7800 2000
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5F920692
+P 9000 2000
+F 0 "SW8" H 9000 2285 50  0000 C CNN
+F 1 "SW_Push" H 9000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 9000 2200 50  0001 C CNN
+F 3 "~" H 9000 2200 50  0001 C CNN
+	1    9000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5F920698
+P 8800 2150
+F 0 "D8" V 8846 2082 50  0000 R CNN
+F 1 "CD4148W" V 8755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8800 2150 50  0001 C CNN
+F 3 "~" V 8800 2150 50  0001 C CNN
+	1    8800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 2050 8800 2000
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5F92069F
+P 10000 2000
+F 0 "SW9" H 10000 2285 50  0000 C CNN
+F 1 "SW_Push" H 10000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 10000 2200 50  0001 C CNN
+F 3 "~" H 10000 2200 50  0001 C CNN
+	1    10000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5F9206A5
+P 9800 2150
+F 0 "D9" V 9846 2082 50  0000 R CNN
+F 1 "CD4148W" V 9755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9800 2150 50  0001 C CNN
+F 3 "~" V 9800 2150 50  0001 C CNN
+	1    9800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 2050 9800 2000
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5F9206AC
+P 11000 2000
+F 0 "SW10" H 11000 2285 50  0000 C CNN
+F 1 "SW_Push" H 11000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 11000 2200 50  0001 C CNN
+F 3 "~" H 11000 2200 50  0001 C CNN
+	1    11000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5F9206B2
+P 10800 2150
+F 0 "D10" V 10846 2082 50  0000 R CNN
+F 1 "CD4148W" V 10755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10800 2150 50  0001 C CNN
+F 3 "~" V 10800 2150 50  0001 C CNN
+	1    10800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10800 2050 10800 2000
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5F93D1C5
+P 2000 3000
+F 0 "SW12" H 2000 3285 50  0000 C CNN
+F 1 "SW_Push" H 2000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 2000 3200 50  0001 C CNN
+F 3 "~" H 2000 3200 50  0001 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5F93D1CB
+P 1800 3150
+F 0 "D12" V 1846 3082 50  0000 R CNN
+F 1 "CD4148W" V 1755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 1800 3150 50  0001 C CNN
+F 3 "~" V 1800 3150 50  0001 C CNN
+	1    1800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 3050 1800 3000
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5F93D1D2
+P 3000 3000
+F 0 "SW13" H 3000 3285 50  0000 C CNN
+F 1 "SW_Push" H 3000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 3000 3200 50  0001 C CNN
+F 3 "~" H 3000 3200 50  0001 C CNN
+	1    3000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5F93D1D8
+P 2800 3150
+F 0 "D13" V 2846 3082 50  0000 R CNN
+F 1 "CD4148W" V 2755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 2800 3150 50  0001 C CNN
+F 3 "~" V 2800 3150 50  0001 C CNN
+	1    2800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 3050 2800 3000
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5F93D1DF
+P 4000 3000
+F 0 "SW14" H 4000 3285 50  0000 C CNN
+F 1 "SW_Push" H 4000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 4000 3200 50  0001 C CNN
+F 3 "~" H 4000 3200 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5F93D1E5
+P 3800 3150
+F 0 "D14" V 3846 3082 50  0000 R CNN
+F 1 "CD4148W" V 3755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 3800 3150 50  0001 C CNN
+F 3 "~" V 3800 3150 50  0001 C CNN
+	1    3800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3050 3800 3000
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5F93D1EC
+P 5000 3000
+F 0 "SW15" H 5000 3285 50  0000 C CNN
+F 1 "SW_Push" H 5000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 5000 3200 50  0001 C CNN
+F 3 "~" H 5000 3200 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5F93D1F2
+P 4800 3150
+F 0 "D15" V 4846 3082 50  0000 R CNN
+F 1 "CD4148W" V 4755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4800 3150 50  0001 C CNN
+F 3 "~" V 4800 3150 50  0001 C CNN
+	1    4800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3050 4800 3000
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5F93D1F9
+P 6000 3000
+F 0 "SW16" H 6000 3285 50  0000 C CNN
+F 1 "SW_Push" H 6000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 6000 3200 50  0001 C CNN
+F 3 "~" H 6000 3200 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5F93D1FF
+P 5800 3150
+F 0 "D16" V 5846 3082 50  0000 R CNN
+F 1 "CD4148W" V 5755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5800 3150 50  0001 C CNN
+F 3 "~" V 5800 3150 50  0001 C CNN
+	1    5800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3050 5800 3000
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5F93D206
+P 7000 3000
+F 0 "SW17" H 7000 3285 50  0000 C CNN
+F 1 "SW_Push" H 7000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 7000 3200 50  0001 C CNN
+F 3 "~" H 7000 3200 50  0001 C CNN
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5F93D20C
+P 6800 3150
+F 0 "D17" V 6846 3082 50  0000 R CNN
+F 1 "CD4148W" V 6755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6800 3150 50  0001 C CNN
+F 3 "~" V 6800 3150 50  0001 C CNN
+	1    6800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3050 6800 3000
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5F93D213
+P 8000 3000
+F 0 "SW18" H 8000 3285 50  0000 C CNN
+F 1 "SW_Push" H 8000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 8000 3200 50  0001 C CNN
+F 3 "~" H 8000 3200 50  0001 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5F93D219
+P 7800 3150
+F 0 "D18" V 7846 3082 50  0000 R CNN
+F 1 "CD4148W" V 7755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7800 3150 50  0001 C CNN
+F 3 "~" V 7800 3150 50  0001 C CNN
+	1    7800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 3050 7800 3000
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5F93D220
+P 9000 3000
+F 0 "SW19" H 9000 3285 50  0000 C CNN
+F 1 "SW_Push" H 9000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 9000 3200 50  0001 C CNN
+F 3 "~" H 9000 3200 50  0001 C CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5F93D226
+P 8800 3150
+F 0 "D19" V 8846 3082 50  0000 R CNN
+F 1 "CD4148W" V 8755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8800 3150 50  0001 C CNN
+F 3 "~" V 8800 3150 50  0001 C CNN
+	1    8800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 3050 8800 3000
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5F93D22D
+P 10000 3000
+F 0 "SW20" H 10000 3285 50  0000 C CNN
+F 1 "SW_Push" H 10000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 10000 3200 50  0001 C CNN
+F 3 "~" H 10000 3200 50  0001 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5F93D233
+P 9800 3150
+F 0 "D20" V 9846 3082 50  0000 R CNN
+F 1 "CD4148W" V 9755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9800 3150 50  0001 C CNN
+F 3 "~" V 9800 3150 50  0001 C CNN
+	1    9800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 3050 9800 3000
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5F93D23A
+P 11000 3000
+F 0 "SW21" H 11000 3285 50  0000 C CNN
+F 1 "SW_Push" H 11000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 11000 3200 50  0001 C CNN
+F 3 "~" H 11000 3200 50  0001 C CNN
+	1    11000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5F93D240
+P 10800 3150
+F 0 "D21" V 10846 3082 50  0000 R CNN
+F 1 "CD4148W" V 10755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10800 3150 50  0001 C CNN
+F 3 "~" V 10800 3150 50  0001 C CNN
+	1    10800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10800 3050 10800 3000
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5F948048
+P 2000 4000
+F 0 "SW23" H 2000 4285 50  0000 C CNN
+F 1 "SW_Push" H 2000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 2000 4200 50  0001 C CNN
+F 3 "~" H 2000 4200 50  0001 C CNN
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5F94804E
+P 1800 4150
+F 0 "D23" V 1846 4082 50  0000 R CNN
+F 1 "CD4148W" V 1755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 1800 4150 50  0001 C CNN
+F 3 "~" V 1800 4150 50  0001 C CNN
+	1    1800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 4050 1800 4000
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5F948055
+P 3000 4000
+F 0 "SW24" H 3000 4285 50  0000 C CNN
+F 1 "SW_Push" H 3000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 3000 4200 50  0001 C CNN
+F 3 "~" H 3000 4200 50  0001 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5F94805B
+P 2800 4150
+F 0 "D24" V 2846 4082 50  0000 R CNN
+F 1 "CD4148W" V 2755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 2800 4150 50  0001 C CNN
+F 3 "~" V 2800 4150 50  0001 C CNN
+	1    2800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 4050 2800 4000
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5F948062
+P 4000 4000
+F 0 "SW25" H 4000 4285 50  0000 C CNN
+F 1 "SW_Push" H 4000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 4000 4200 50  0001 C CNN
+F 3 "~" H 4000 4200 50  0001 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 5F948068
+P 3800 4150
+F 0 "D25" V 3846 4082 50  0000 R CNN
+F 1 "CD4148W" V 3755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 3800 4150 50  0001 C CNN
+F 3 "~" V 3800 4150 50  0001 C CNN
+	1    3800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4050 3800 4000
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5F94806F
+P 5000 4000
+F 0 "SW26" H 5000 4285 50  0000 C CNN
+F 1 "SW_Push" H 5000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 5000 4200 50  0001 C CNN
+F 3 "~" H 5000 4200 50  0001 C CNN
+	1    5000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5F948075
+P 4800 4150
+F 0 "D26" V 4846 4082 50  0000 R CNN
+F 1 "CD4148W" V 4755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4800 4150 50  0001 C CNN
+F 3 "~" V 4800 4150 50  0001 C CNN
+	1    4800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4050 4800 4000
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5F94807C
+P 6000 4000
+F 0 "SW27" H 6000 4285 50  0000 C CNN
+F 1 "SW_Push" H 6000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 6000 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5F948082
+P 5800 4150
+F 0 "D27" V 5846 4082 50  0000 R CNN
+F 1 "CD4148W" V 5755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5800 4150 50  0001 C CNN
+F 3 "~" V 5800 4150 50  0001 C CNN
+	1    5800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 4050 5800 4000
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5F948089
+P 7000 4000
+F 0 "SW28" H 7000 4285 50  0000 C CNN
+F 1 "SW_Push" H 7000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 7000 4200 50  0001 C CNN
+F 3 "~" H 7000 4200 50  0001 C CNN
+	1    7000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5F94808F
+P 6800 4150
+F 0 "D28" V 6846 4082 50  0000 R CNN
+F 1 "CD4148W" V 6755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6800 4150 50  0001 C CNN
+F 3 "~" V 6800 4150 50  0001 C CNN
+	1    6800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4050 6800 4000
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5F948096
+P 8000 4000
+F 0 "SW29" H 8000 4285 50  0000 C CNN
+F 1 "SW_Push" H 8000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 8000 4200 50  0001 C CNN
+F 3 "~" H 8000 4200 50  0001 C CNN
+	1    8000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 5F94809C
+P 7800 4150
+F 0 "D29" V 7846 4082 50  0000 R CNN
+F 1 "CD4148W" V 7755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7800 4150 50  0001 C CNN
+F 3 "~" V 7800 4150 50  0001 C CNN
+	1    7800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 4050 7800 4000
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5F9480A3
+P 9000 4000
+F 0 "SW30" H 9000 4285 50  0000 C CNN
+F 1 "SW_Push" H 9000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 9000 4200 50  0001 C CNN
+F 3 "~" H 9000 4200 50  0001 C CNN
+	1    9000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5F9480A9
+P 8800 4150
+F 0 "D30" V 8846 4082 50  0000 R CNN
+F 1 "CD4148W" V 8755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8800 4150 50  0001 C CNN
+F 3 "~" V 8800 4150 50  0001 C CNN
+	1    8800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 4050 8800 4000
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5F9480B0
+P 10000 4000
+F 0 "SW31" H 10000 4285 50  0000 C CNN
+F 1 "SW_Push" H 10000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 10000 4200 50  0001 C CNN
+F 3 "~" H 10000 4200 50  0001 C CNN
+	1    10000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5F9480B6
+P 9800 4150
+F 0 "D31" V 9846 4082 50  0000 R CNN
+F 1 "CD4148W" V 9755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9800 4150 50  0001 C CNN
+F 3 "~" V 9800 4150 50  0001 C CNN
+	1    9800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 4050 9800 4000
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5F9480BD
+P 11000 4000
+F 0 "SW32" H 11000 4285 50  0000 C CNN
+F 1 "SW_Push" H 11000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 11000 4200 50  0001 C CNN
+F 3 "~" H 11000 4200 50  0001 C CNN
+	1    11000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5F9480C3
+P 10800 4150
+F 0 "D32" V 10846 4082 50  0000 R CNN
+F 1 "CD4148W" V 10755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10800 4150 50  0001 C CNN
+F 3 "~" V 10800 4150 50  0001 C CNN
+	1    10800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10800 4050 10800 4000
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5F94EFE8
+P 2000 5000
+F 0 "SW34" H 2000 5285 50  0000 C CNN
+F 1 "SW_Push" H 2000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 2000 5200 50  0001 C CNN
+F 3 "~" H 2000 5200 50  0001 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5F94EFEE
+P 1800 5150
+F 0 "D34" V 1846 5082 50  0000 R CNN
+F 1 "CD4148W" V 1755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 1800 5150 50  0001 C CNN
+F 3 "~" V 1800 5150 50  0001 C CNN
+	1    1800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 5050 1800 5000
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5F94EFF5
+P 3000 5000
+F 0 "SW35" H 3000 5285 50  0000 C CNN
+F 1 "SW_Push" H 3000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 3000 5200 50  0001 C CNN
+F 3 "~" H 3000 5200 50  0001 C CNN
+	1    3000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5F94EFFB
+P 2800 5150
+F 0 "D35" V 2846 5082 50  0000 R CNN
+F 1 "CD4148W" V 2755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 2800 5150 50  0001 C CNN
+F 3 "~" V 2800 5150 50  0001 C CNN
+	1    2800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 5050 2800 5000
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5F94F002
+P 4000 5000
+F 0 "SW36" H 4000 5285 50  0000 C CNN
+F 1 "SW_Push" H 4000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 4000 5200 50  0001 C CNN
+F 3 "~" H 4000 5200 50  0001 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 5F94F008
+P 3800 5150
+F 0 "D36" V 3846 5082 50  0000 R CNN
+F 1 "CD4148W" V 3755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 3800 5150 50  0001 C CNN
+F 3 "~" V 3800 5150 50  0001 C CNN
+	1    3800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 5050 3800 5000
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5F94F00F
+P 5000 5000
+F 0 "SW37" H 5000 5285 50  0000 C CNN
+F 1 "SW_Push" H 5000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 5000 5200 50  0001 C CNN
+F 3 "~" H 5000 5200 50  0001 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 5F94F015
+P 4800 5150
+F 0 "D37" V 4846 5082 50  0000 R CNN
+F 1 "CD4148W" V 4755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4800 5150 50  0001 C CNN
+F 3 "~" V 4800 5150 50  0001 C CNN
+	1    4800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 5050 4800 5000
+$Comp
+L Switch:SW_Push SW38
+U 1 1 5F94F01C
+P 6000 5000
+F 0 "SW38" H 6000 5285 50  0000 C CNN
+F 1 "SW_Push" H 6000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 6000 5200 50  0001 C CNN
+F 3 "~" H 6000 5200 50  0001 C CNN
+	1    6000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 5F94F022
+P 5800 5150
+F 0 "D38" V 5846 5082 50  0000 R CNN
+F 1 "CD4148W" V 5755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5800 5150 50  0001 C CNN
+F 3 "~" V 5800 5150 50  0001 C CNN
+	1    5800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 5050 5800 5000
+$Comp
+L Switch:SW_Push SW39
+U 1 1 5F94F029
+P 7000 5000
+F 0 "SW39" H 7000 5285 50  0000 C CNN
+F 1 "SW_Push" H 7000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 7000 5200 50  0001 C CNN
+F 3 "~" H 7000 5200 50  0001 C CNN
+	1    7000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 5F94F02F
+P 6800 5150
+F 0 "D39" V 6846 5082 50  0000 R CNN
+F 1 "CD4148W" V 6755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6800 5150 50  0001 C CNN
+F 3 "~" V 6800 5150 50  0001 C CNN
+	1    6800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 5050 6800 5000
+$Comp
+L Switch:SW_Push SW40
+U 1 1 5F94F036
+P 8000 5000
+F 0 "SW40" H 8000 5285 50  0000 C CNN
+F 1 "SW_Push" H 8000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 8000 5200 50  0001 C CNN
+F 3 "~" H 8000 5200 50  0001 C CNN
+	1    8000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 5F94F03C
+P 7800 5150
+F 0 "D40" V 7846 5082 50  0000 R CNN
+F 1 "CD4148W" V 7755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7800 5150 50  0001 C CNN
+F 3 "~" V 7800 5150 50  0001 C CNN
+	1    7800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 5050 7800 5000
+$Comp
+L Switch:SW_Push SW41
+U 1 1 5F94F043
+P 9000 5000
+F 0 "SW41" H 9000 5285 50  0000 C CNN
+F 1 "SW_Push" H 9000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 9000 5200 50  0001 C CNN
+F 3 "~" H 9000 5200 50  0001 C CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 5F94F049
+P 8800 5150
+F 0 "D41" V 8846 5082 50  0000 R CNN
+F 1 "CD4148W" V 8755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8800 5150 50  0001 C CNN
+F 3 "~" V 8800 5150 50  0001 C CNN
+	1    8800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 5050 8800 5000
+$Comp
+L Switch:SW_Push SW42
+U 1 1 5F94F050
+P 10000 5000
+F 0 "SW42" H 10000 5285 50  0000 C CNN
+F 1 "SW_Push" H 10000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 10000 5200 50  0001 C CNN
+F 3 "~" H 10000 5200 50  0001 C CNN
+	1    10000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 5F94F056
+P 9800 5150
+F 0 "D42" V 9846 5082 50  0000 R CNN
+F 1 "CD4148W" V 9755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9800 5150 50  0001 C CNN
+F 3 "~" V 9800 5150 50  0001 C CNN
+	1    9800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 5050 9800 5000
+$Comp
+L Switch:SW_Push SW43
+U 1 1 5F94F05D
+P 11000 5000
+F 0 "SW43" H 11000 5285 50  0000 C CNN
+F 1 "SW_Push" H 11000 5194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 11000 5200 50  0001 C CNN
+F 3 "~" H 11000 5200 50  0001 C CNN
+	1    11000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 5F94F063
+P 10800 5150
+F 0 "D43" V 10846 5082 50  0000 R CNN
+F 1 "CD4148W" V 10755 5082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 10800 5150 50  0001 C CNN
+F 3 "~" V 10800 5150 50  0001 C CNN
+	1    10800 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10800 5050 10800 5000
+Wire Wire Line
+	10800 2250 9800 2250
+Connection ~ 1800 2250
+Wire Wire Line
+	1800 2250 1500 2250
+Connection ~ 2800 2250
+Wire Wire Line
+	2800 2250 1800 2250
+Connection ~ 3800 2250
+Wire Wire Line
+	3800 2250 2800 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 2250 3800 2250
+Connection ~ 5800 2250
+Wire Wire Line
+	5800 2250 4800 2250
+Connection ~ 6800 2250
+Wire Wire Line
+	6800 2250 5800 2250
+Connection ~ 7800 2250
+Wire Wire Line
+	7800 2250 6800 2250
+Connection ~ 8800 2250
+Wire Wire Line
+	8800 2250 7800 2250
+Connection ~ 9800 2250
+Wire Wire Line
+	9800 2250 8800 2250
+Text GLabel 1500 2250 0    60   Input ~ 0
+ROW0
+Wire Wire Line
+	10800 3250 9800 3250
+Connection ~ 1800 3250
+Wire Wire Line
+	1800 3250 1500 3250
+Connection ~ 2800 3250
+Wire Wire Line
+	2800 3250 1800 3250
+Connection ~ 3800 3250
+Wire Wire Line
+	3800 3250 2800 3250
+Connection ~ 4800 3250
+Wire Wire Line
+	4800 3250 3800 3250
+Connection ~ 5800 3250
+Wire Wire Line
+	5800 3250 4800 3250
+Connection ~ 6800 3250
+Wire Wire Line
+	6800 3250 5800 3250
+Connection ~ 7800 3250
+Wire Wire Line
+	7800 3250 6800 3250
+Connection ~ 8800 3250
+Wire Wire Line
+	8800 3250 7800 3250
+Connection ~ 9800 3250
+Wire Wire Line
+	9800 3250 8800 3250
+Wire Wire Line
+	1500 4250 1800 4250
+Connection ~ 1800 4250
+Wire Wire Line
+	1800 4250 2800 4250
+Connection ~ 2800 4250
+Wire Wire Line
+	2800 4250 3800 4250
+Connection ~ 3800 4250
+Wire Wire Line
+	3800 4250 4800 4250
+Connection ~ 4800 4250
+Wire Wire Line
+	4800 4250 5800 4250
+Connection ~ 5800 4250
+Wire Wire Line
+	5800 4250 6800 4250
+Connection ~ 6800 4250
+Wire Wire Line
+	6800 4250 7800 4250
+Connection ~ 7800 4250
+Wire Wire Line
+	7800 4250 8800 4250
+Connection ~ 8800 4250
+Wire Wire Line
+	8800 4250 9800 4250
+Connection ~ 9800 4250
+Wire Wire Line
+	9800 4250 10800 4250
+Wire Wire Line
+	10800 5250 9800 5250
+Connection ~ 1800 5250
+Wire Wire Line
+	1800 5250 1500 5250
+Connection ~ 2800 5250
+Wire Wire Line
+	2800 5250 1800 5250
+Connection ~ 3800 5250
+Wire Wire Line
+	3800 5250 2800 5250
+Connection ~ 4800 5250
+Wire Wire Line
+	4800 5250 3800 5250
+Connection ~ 5800 5250
+Wire Wire Line
+	5800 5250 4800 5250
+Connection ~ 6800 5250
+Wire Wire Line
+	6800 5250 5800 5250
+Connection ~ 7800 5250
+Wire Wire Line
+	7800 5250 6800 5250
+Connection ~ 8800 5250
+Wire Wire Line
+	8800 5250 7800 5250
+Connection ~ 9800 5250
+Wire Wire Line
+	9800 5250 8800 5250
+Text GLabel 1500 3250 0    60   Input ~ 0
+ROW1
+Text GLabel 1500 4250 0    60   Input ~ 0
+ROW2
+Text GLabel 1500 5250 0    60   Input ~ 0
+ROW3
+Text GLabel 2200 1500 1    60   Input ~ 0
+COL0
+Text GLabel 3200 1500 1    60   Input ~ 0
+COL1
+Text GLabel 4200 1500 1    60   Input ~ 0
+COL2
+Text GLabel 5200 1500 1    60   Input ~ 0
+COL3
+Text GLabel 6200 1500 1    60   Input ~ 0
+COL4
+Text GLabel 7200 1500 1    60   Input ~ 0
+COL5
+Text GLabel 8200 1500 1    60   Input ~ 0
+COL6
+Text GLabel 9200 1500 1    60   Input ~ 0
+COL7
+Text GLabel 10200 1500 1    60   Input ~ 0
+COL8
+Text GLabel 11200 1500 1    60   Input ~ 0
+COL9
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5F960481
+P 12000 2000
+F 0 "SW11" H 12000 2285 50  0000 C CNN
+F 1 "SW_Push" H 12000 2194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 12000 2200 50  0001 C CNN
+F 3 "~" H 12000 2200 50  0001 C CNN
+	1    12000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5F960487
+P 11800 2150
+F 0 "D11" V 11846 2082 50  0000 R CNN
+F 1 "CD4148W" V 11755 2082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 11800 2150 50  0001 C CNN
+F 3 "~" V 11800 2150 50  0001 C CNN
+	1    11800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11800 2050 11800 2000
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5F96048E
+P 12000 3000
+F 0 "SW22" H 12000 3285 50  0000 C CNN
+F 1 "SW_Push" H 12000 3194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 12000 3200 50  0001 C CNN
+F 3 "~" H 12000 3200 50  0001 C CNN
+	1    12000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 5F960494
+P 11800 3150
+F 0 "D22" V 11846 3082 50  0000 R CNN
+F 1 "CD4148W" V 11755 3082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 11800 3150 50  0001 C CNN
+F 3 "~" V 11800 3150 50  0001 C CNN
+	1    11800 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11800 3050 11800 3000
+$Comp
+L Device:D_Small D33
+U 1 1 5F9604A1
+P 11800 4150
+F 0 "D33" V 11846 4082 50  0000 R CNN
+F 1 "CD4148W" V 11755 4082 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 11800 4150 50  0001 C CNN
+F 3 "~" V 11800 4150 50  0001 C CNN
+	1    11800 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11800 4050 11800 4000
+Wire Wire Line
+	11800 2250 10800 2250
+Wire Wire Line
+	11800 3250 10800 3250
+Wire Wire Line
+	10800 4250 11800 4250
+Text GLabel 12200 1500 1    60   Input ~ 0
+COLA
+Wire Wire Line
+	12200 1500 12200 2000
+Connection ~ 12200 2000
+Wire Wire Line
+	12200 2000 12200 2650
+Connection ~ 12200 3000
+Wire Wire Line
+	12200 3000 12200 4000
+Wire Wire Line
+	11200 5000 11200 4000
+Connection ~ 11200 2000
+Wire Wire Line
+	11200 2000 11200 1500
+Connection ~ 11200 3000
+Connection ~ 11200 4000
+Wire Wire Line
+	11200 4000 11200 3000
+Wire Wire Line
+	10200 1500 10200 2000
+Connection ~ 10200 2000
+Wire Wire Line
+	10200 2000 10200 3000
+Connection ~ 10200 3000
+Wire Wire Line
+	10200 3000 10200 4000
+Connection ~ 10200 4000
+Wire Wire Line
+	10200 4000 10200 5000
+Wire Wire Line
+	9200 5000 9200 4000
+Connection ~ 9200 2000
+Wire Wire Line
+	9200 2000 9200 1500
+Connection ~ 9200 3000
+Wire Wire Line
+	9200 3000 9200 2000
+Connection ~ 9200 4000
+Wire Wire Line
+	9200 4000 9200 3000
+Wire Wire Line
+	8200 1500 8200 2000
+Connection ~ 8200 2000
+Wire Wire Line
+	8200 2000 8200 3000
+Connection ~ 8200 3000
+Wire Wire Line
+	8200 3000 8200 4000
+Connection ~ 8200 4000
+Wire Wire Line
+	8200 4000 8200 5000
+Wire Wire Line
+	7200 5000 7200 4000
+Connection ~ 7200 2000
+Wire Wire Line
+	7200 2000 7200 1500
+Connection ~ 7200 3000
+Wire Wire Line
+	7200 3000 7200 2000
+Connection ~ 7200 4000
+Wire Wire Line
+	7200 4000 7200 3000
+Wire Wire Line
+	6200 1500 6200 2000
+Connection ~ 6200 2000
+Wire Wire Line
+	6200 2000 6200 3000
+Connection ~ 6200 3000
+Wire Wire Line
+	6200 3000 6200 4000
+Connection ~ 6200 4000
+Wire Wire Line
+	6200 4000 6200 5000
+Wire Wire Line
+	5200 1500 5200 2000
+Connection ~ 5200 2000
+Wire Wire Line
+	5200 2000 5200 3000
+Connection ~ 5200 3000
+Wire Wire Line
+	5200 3000 5200 4000
+Connection ~ 5200 4000
+Wire Wire Line
+	5200 4000 5200 5000
+Wire Wire Line
+	4200 1500 4200 2000
+Connection ~ 4200 2000
+Wire Wire Line
+	4200 2000 4200 3000
+Connection ~ 4200 3000
+Wire Wire Line
+	4200 3000 4200 4000
+Connection ~ 4200 4000
+Wire Wire Line
+	4200 4000 4200 5000
+Wire Wire Line
+	3200 5000 3200 4000
+Connection ~ 3200 2000
+Wire Wire Line
+	3200 2000 3200 1500
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 3200 2000
+Connection ~ 3200 4000
+Wire Wire Line
+	3200 4000 3200 3000
+Wire Wire Line
+	2200 1500 2200 2000
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2000 2200 3000
+Connection ~ 2200 3000
+Wire Wire Line
+	2200 3000 2200 4000
+Connection ~ 2200 4000
+Wire Wire Line
+	2200 4000 2200 5000
+Connection ~ 10800 2250
+Connection ~ 10800 3250
+Connection ~ 10800 4250
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5F96049B
+P 12000 4000
+F 0 "SW33" H 12000 4285 50  0000 C CNN
+F 1 "SW_Push" H 12000 4194 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 12000 4200 50  0001 C CNN
+F 3 "~" H 12000 4200 50  0001 C CNN
+	1    12000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 5F9E3D81
+P 12000 2650
+F 0 "SW45" H 12000 2935 50  0000 C CNN
+F 1 "SW_Push" H 12000 2844 50  0000 C CNN
+F 2 "other-random-parts:SW_PG1350_choc_spacing" H 12000 2850 50  0001 C CNN
+F 3 "~" H 12000 2850 50  0001 C CNN
+	1    12000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 2650 11800 3000
+Connection ~ 11800 3000
+Connection ~ 12200 2650
+Wire Wire Line
+	12200 2650 12200 3000
+Wire Wire Line
+	11200 2000 11200 3000
+$EndSCHEMATC

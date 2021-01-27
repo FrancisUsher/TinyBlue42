@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name tinyblue42)(type Legacy)(uri ${KIPRJMOD}/tinyblue42.lib)(options "")(descr ""))
+  (lib (name tinyblue42-rescue)(type Legacy)(uri ${KIPRJMOD}/tinyblue42-rescue.lib)(options "")(descr ""))
+)
